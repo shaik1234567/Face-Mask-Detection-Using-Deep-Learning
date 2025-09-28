@@ -31,7 +31,7 @@ DIRECTORY = r"C:\Mask Detection\CODE\Face-Mask-Detection-master\dataset"
 CATEGORIES = ["with_mask", "without_mask"]
 
 # grab the list of images in our dataset directory, then initialize
-# the list of data (i.e., images) and class images
+# the list of data (i.e., images) and class image
 print("[INFO] loading images...")
 
 data = []
