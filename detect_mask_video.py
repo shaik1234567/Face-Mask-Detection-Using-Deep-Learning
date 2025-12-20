@@ -10,7 +10,7 @@ import cv2
 import os
 
 def detect_and_predict_mask(frame, faceNet, maskNet):
-	# grab the dimensions of the frame and then construct a blob
+	# grab the dimensions of the frame and then construct a 
 	# from it
 	(h, w) = frame.shape[:2]
 	blob = cv2.dnn.blobFromImage(frame, 1.0, (224, 224),
